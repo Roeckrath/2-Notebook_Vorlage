@@ -4,7 +4,7 @@ public class QuoteNote extends Note {
     private String source;
 
     public QuoteNote(String title, String quoteText, String source) {
-        //TODO: Implementiere den Konstruktor
+        //TODO 02: Implementiere den Konstruktor
         super("","");
     }
 
@@ -15,7 +15,7 @@ public class QuoteNote extends Note {
      */
     @Override
     public String display() {
-        //TODO: Implementiere die Methode display() entsprechend der Dokumentation / des Kommentars oben.
+        //TODO 03: Implementiere die Methode display() entsprechend des Kommentars oben.
         return "";
     }
 

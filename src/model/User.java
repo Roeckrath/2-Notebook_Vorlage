@@ -5,8 +5,14 @@ public class User {
     private Note[] notes;
     private int noteCount;
 
+    /**
+     * Erzeugt ein neues User Objekt. Der Nutzername wird als Parameter übergeben.
+     * Es wird ein neues notes-Array erzeugt, die Anzahl der Plätze ist dir überlassen.
+     * noteCount wird auf 0 gesetzt, da aktuell keine Notizen gespeichert sind.
+     * @param username
+     */
     public User(String username){
-        //TODO: Implementiere den Konstruktor.
+        //TODO 06: Implementiere den Konstruktor.
     }
 
     /**
@@ -15,7 +21,7 @@ public class User {
      * @return Boolscher Wert, ob das Hinzufügen funktioniert hat oder nicht.
      */
     public boolean addNote(Note note) {
-        //TODO: Implementiere die Methode
+        //TODO 07: Implementiere die Methode
         return false;
     }
 
@@ -26,7 +32,7 @@ public class User {
      * @return true, falls das Note-Objekt erfolgreich gelöscht wurde; false sonst
      */
     public boolean removeNote(int index) {
-        //TODO: Implementiere die Methode
+        //TODO 08: Implementiere die Methode
         return false;
     }
 

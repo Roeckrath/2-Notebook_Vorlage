@@ -8,7 +8,7 @@ public class UserController {
     private int userCount;
 
     public UserController() {
-        //TODO: Implementiere den Konstruktor
+        //TODO 10: Implementiere den Konstruktor
     }
 
     /**
@@ -21,7 +21,7 @@ public class UserController {
      * @return Gibt true zurück, falls der Nutzer angelegt werden konnte, sonst false.
      */
     public boolean createUser(String username) {
-        //TODO: Implementiere die Methode
+        //TODO 11: Implementiere die Methode
         return false;
     }
 
@@ -31,7 +31,7 @@ public class UserController {
      * @return Das gefundene User-Objekt; null, wenn das Objekt nicht existiert.
      */
     public User getUserByUsername(String username) {
-        //TODO: Implementiere die Methode
+        //TODO 12: Implementiere die Methode
         return null;
     }
 
@@ -41,7 +41,7 @@ public class UserController {
      * @param note Notiz-Objekt, dass dem Nutzer zugeordnet werden soll
      */
     public void addNoteToUser(String username, Note note){
-        //TODO: Implementiere die Methode.
+        //TODO 13: Implementiere die Methode.
     }
 
     /**

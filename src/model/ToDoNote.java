@@ -4,7 +4,7 @@ public class ToDoNote extends Note {
     private boolean completed;
 
     public ToDoNote(String title, String content) {
-        //TODO: Implementiere den Konstruktor
+        //TODO 04: Implementiere den Konstruktor
         super("","");
     }
 
@@ -15,7 +15,7 @@ public class ToDoNote extends Note {
      */
     @Override
     public String display() {
-        //TODO: Implementiere die Methode display() entsprechend der Dokumentation / des Kommentars oben.
+        //TODO 05: Implementiere die Methode display() entsprechend der Dokumentation / des Kommentars oben.
         return "";
     }
 
